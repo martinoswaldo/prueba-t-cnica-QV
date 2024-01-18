@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="{{ asset('css/paginaInicio.css') }}">
-    <title>Document</title>
+    <title>IzyAcademy</title>
 </head>
 <body>
     <header>
@@ -17,25 +17,25 @@
             <nav>
                 <a href="" class="nav-link">Inicio</a>
                 <div class="listaDesplegable">
-                    <a href="#" class="nav-link">Rutas de Formacion <i class='bx bx-chevron-down'></i></a>
+                    <a href="#" class="nav-link">Rutas de Formación <i class='bx bx-chevron-down'></i></a>
                     <ul class="listaDesplegable-menu">
-                        <li><a href="#">Cientifico de datos</a></li>
-                        <li><a href="#">Ruta de Formacion en .NET</a></li>
-                        <li><a href="#">Ruta de Formacion en Automatizacion </a></li>
+                        <li><a href="#">Científico de datos</a></li>
+                        <li><a href="#">Ruta de Formación en .NET</a></li>
+                        <li><a href="#">Ruta de Formación en Automatización </a></li>
                     </ul>
                 </div>
             </nav>
             <div class="iniciosesion">
                 <a href="#" class="nav-link">
                     <i class='bx bx-user'></i>
-                    <span class="tooltip">Iniciar sesion</span>
+                    <span class="tooltip">Iniciar sesión</span>
                 </a>
             </div>
         </div>
         <div class="texto">
-            <h2 class="text-center">Continua tu formacion con izyAcademy</h2>
-            <p class="lead text-center">Te ofrecemos una experiencia de aprendizaje basada en tu formacion por proyectos,</p>
-            <p class="lead text-center">apoyada en el uso de recursos interctivos para que tu aprendizaje sea efectivo.</p>
+            <h2 class="text-center">Continua tu formación con izyAcademy</h2>
+            <p class="lead text-center">Te ofrecemos una experiencia de aprendizaje basada en tu formación por proyectos,</p>
+            <p class="lead text-center">apoyada en el uso de recursos interactivos para que tu aprendizaje sea efectivo.</p>
         </div>
     </header>
 
@@ -62,7 +62,7 @@
                     <img src="{{ asset('imagenes/novedad1.jpg')}}" alt="">
                 </div>
                 <div class="titulo">
-                    <a href="#">Bienvenidos a izyAcademy</a>
+                    <a href="#">Generación de comunidad </a>
                 </div>
                 <div class="texto2">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -76,7 +76,7 @@
                     <img src="{{ asset('imagenes/novedad2.jpg')}}" alt="">
                 </div>
                 <div class="titulo">
-                    <a href="#">Bienvenidos a izyAcademy</a>
+                    <a href="#">Transferencia de conocimiento </a>
                 </div>
                 <div class="texto2">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -90,7 +90,7 @@
                     <img src="{{ asset('imagenes/novedad3.jpg')}}" alt="">
                 </div>
                 <div class="titulo">
-                    <a href="#">Bienvenidos a izyAcademy</a>
+                    <a href="#">Certificaciones e insignias</a>
                 </div>
                 <div class="texto2">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -104,7 +104,7 @@
                     <img src="{{ asset('imagenes/novedad4.jpg')}}" alt="">
                 </div>
                 <div class="titulo">
-                    <a href="#">Bienvenidos a izyAcademy</a>
+                    <a href="#">Apropiación de conocimiento </a>
                 </div>
                 <div class="texto2">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -116,8 +116,68 @@
         </div>
     </div>
 
-    <div class="contenedor-aliados">
-        
+    <div class="conteTitAli">
+        <h3 class="titAlia">Aliados</h3>
+        <p class="texAlia">Nuestros entrenamientos, procesos formativos y certificación cuentan con el respaldo de empresas que confían en nosotros.</p>
     </div>
+
+    <div class="contImgAli">
+        <img src="{{ asset('imagenes/aliados1.jpg')}}" alt="">
+        <img src="{{ asset('imagenes/aliados2.png')}}" alt="">
+        <img src="{{ asset('imagenes/aliados3.png')}}" alt="">
+        <img src="{{ asset('imagenes/aliados4.jpg')}}" alt="">
+        <img src="{{ asset('imagenes/aliados5.jpg')}}" alt="">
+        <img src="{{ asset('imagenes/aliados6.jpg')}}" alt="">
+        <img src="{{ asset('imagenes/aliados7.png')}}" alt="">
+        <img src="{{ asset('imagenes/aliados8.png')}}" alt="">
+    </div>
+
+    <footer class="piePagina">
+        <div class="grupo1">
+            <div class="box">
+                <h2>Contáctanos</h2>
+                <p>E-mail : comercial@qvision.us</p>
+                <p>WhatsApp : +300 255 02 65</p>
+                <p>Comunícate con nosotros</p>
+            </div>
+            <div class="box">
+                <h2>Categorías de cursos</h2>
+                <p>Desarrollo</p>
+                <p>Metodología de Pruebas</p>
+                <p>Pruebas Funcionales</p>
+                <p>Pruebas No Funcionales</p>
+                <p>DevOps</p>
+                <p>Cloud</p>
+                <p>Automatización</p>
+            </div>
+            <div class="box">
+                <h2>Certificaciones</h2>
+                <p>Scrum Master</p>
+                <p>Scrum Product Owner</p>
+                <p>Scrum Developer</p>
+                <p>Agile Coach</p>
+                <p>Desing Thinking</p>
+                <p>Kanban</p>
+                <p>OKR</p>
+                <p>DevOps</p>
+            </div>
+            <div class="box">
+                <h2>Q-Vision Technologies</h2>
+                <p>Desarrollo de Software</p>
+                <p>Aseguramiento de Calidad</p>
+                <p>Automatización de procesos con RPA</p>
+                <p>Talento TI</p>
+                <p>Gestión inteligente de datos</p>
+            </div>
+            <div class="box">
+                <h2>Soporte</h2>
+                <p>Si tienes incovenientes o dudas, contáctanos al correo:</p>
+                <p>izyacademy@qvision.us</p>
+            </div>
+        </div>
+        <div class="grupo2">
+            <small>&copy; 2024 IzyAcademy Marca Registrada By Q-Vision Technologies</small>
+        </div>
+    </footer>
 </body>
 </html>

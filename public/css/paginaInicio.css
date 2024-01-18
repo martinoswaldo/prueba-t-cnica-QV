@@ -175,3 +175,69 @@ img {
 .texto2 p {
     color: black;
 }
+
+.conteTitAli {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.titAlia {
+    margin-right: 160px;
+}
+
+.texAlia {
+    color: #1D3A6C;
+}
+
+.contImgAli {
+    width: 80%;
+    margin: 50px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+    gap: 30px;
+}
+
+.contImgAli img {
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.contImgAli img:hover {
+    transform: scale(1.2);
+}
+
+.piePagina {
+    width: 100%;
+    background-color: #1D3A6C;
+}
+
+.piePagina .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.piePagina .grupo1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.piePagina .grupo1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.piePagina .grupo2 {
+    background-color: #172e56;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
