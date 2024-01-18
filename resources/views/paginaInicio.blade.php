@@ -38,7 +38,9 @@
             <p class="lead text-center">apoyada en el uso de recursos interctivos para que tu aprendizaje sea efectivo.</p>
         </div>
     </header>
+
     <h3>Novedades</h3>
+
     <div class="contenedorNovedades">
         <div class="novedadAu">
             <div class="imgNovAu">
@@ -112,6 +114,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="contenedor-aliados">
+        
     </div>
 </body>
 </html>
