@@ -26,11 +26,30 @@
                 </div>
             </nav>
             <div class="iniciosesion">
-                <a href="#" class="nav-link">
+                <a href="#" class="nav-link" id="abrir">
                     <i class='bx bx-user'></i>
                     <span class="tooltip">Iniciar sesión</span>
                 </a>
             </div>
+
+            <dialog class="modals" id="modalIni">
+                <div class="formulario">
+                    <h2>Inicie sesión en su cuenta</h2>
+                    <form method="POST"></form>
+                    <div class="usuario">
+                        <input type="text" required>
+                        <label for="">Correo electrónico</label>
+                    </div>
+                    <div class="contrasenia">
+                        <input type="text" required>
+                        <label for="">Contraseña</label>
+                    </div>
+                </div>
+                <button id="cerrar">Acceder</button> 
+            </dialog>
+
+            <script src="{{ asset('js/modal-desc.js')}}"></script>
+            
         </div>
         <div class="texto">
             <h2 class="text-center">Continua tu formación con izyAcademy</h2>
